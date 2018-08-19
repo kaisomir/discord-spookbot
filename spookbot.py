@@ -55,5 +55,5 @@ async def spookmeter(message):
 
 # }}}
 
-print("https://discordapp.com/oauth2/authorize?&client_id=365601279713476608&scope=bot&permissions=0")
+print("https://discordapp.com/oauth2/authorize?&client_id=" + auth['clientId'] + "&scope=bot&permissions=0")
 client.run(auth['token'])
