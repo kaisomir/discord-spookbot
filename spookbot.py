@@ -33,13 +33,13 @@ async def on_message(message):
 
 @command
 async def doot(message):
-    await client.send_message(message.channel, message.author.mention + ' doot doot')
+    await message.channel.send(message.author.mention + ' doot doot')
 
 @command
 async def spookmeter(message):
     endswith = message.content.lower().endswith
     async def send(url):
-        await client.send_message(message.channel, url)
+        await message.channel.send(url)
         
     if endswith('not spooky') or endswith('1'):
         await send('https://i.imgur.com/OtHOWy4.gif')
