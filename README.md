@@ -4,22 +4,24 @@
 
 1. Create a bot application from the Discord developers page.
 
-2. Install the `discord.py` module:
-
-    $ sudo -H pip3 install discord
-
-3. Create the file `auth.json` with the following contents:
-
-```json
-{
-    "token":"Your Discord Auth Token Here",
-    "clientId":"Your Discord Bot Client ID Here"
-}
+2. Install the `py-cord` module:
+```bash
+    $ [sudo] pip[3] install py-cord
+    OR
+    $ [sudo] python[3] -m pip install py-cord
 ```
 
-4. Run `python3 spookbot.py`. It should print out an invite as it starts:
+3. Create the file `config.json` by copying `example.json` and editing with your info.
 
-    $ python3 spookbot.py
-    https://discordapp.com/oauth2/authorize?&client_id=123456789&scope=bot&permissions=0
+4. Run `python[3] spookbot.py`. It should print out an invite as it starts:
+```bash
+    $ python[3] spookbot.py
+    https://discordapp.com/oauth2/authorize?...
+```
 
-5. Invite the bot on your server, and you're set!
+5. Invite the bot to your server, and you're set!
+
+### Credits
+
+[John Karel](https://jjjjjjjjjjohn.tumblr.com/) - creator of the skeleton gifs used in the `calciumfix` command.
+Lawful Lazy, original creator of Spookbot. May your GitHub rest in piece.
