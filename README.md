@@ -24,4 +24,5 @@
 ### Credits
 
 [John Karel](https://jjjjjjjjjjohn.tumblr.com/) - creator of the skeleton gifs used in the `calciumfix` command.
+
 Lawful Lazy, original creator of Spookbot. May your GitHub rest in piece.
