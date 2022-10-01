@@ -29,7 +29,7 @@ async def funnycatchphrase(ctx: discord.ApplicationContext):
 
 @bot.slash_command(name='calciumfix')
 async def calciumfix(ctx: discord.ApplicationContext):
-    with open('gifs.txt') as file:
+    with open('calciumfix.txt') as file:
         gifs = file.readlines()
     await ctx.respond(random.choice(gifs).rstrip('\n'))
 
