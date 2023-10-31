@@ -41,15 +41,15 @@ async def spookmeter(
                      ):
     match level:
         case 'not spooky':
-            await ctx.respond('https://i.imgur.com/OtHOWy4.gif')
+            await ctx.respond('https://tenor.com/0g4g.gif')
         case 'spoopy':
-            await ctx.respond('https://i.imgur.com/UvoCUa0.gif')
+            await ctx.respond('https://tenor.com/0g4i.gif')
         case 'p spoopy':
-            await ctx.respond('https://i.imgur.com/HmJXXfh.gif')
+            await ctx.respond('https://tenor.com/0g4l.gif')
         case 'spooky':
-            await ctx.respond('https://i.imgur.com/o1aLBqG.gif')
+            await ctx.respond('https://tenor.com/0dSO.gif')
         case '2spooky':
-            await ctx.respond('https://i.imgur.com/FToVdJR.gif')
+            await ctx.respond('https://tenor.com/0g4s.gif')
 
 
 bot.run(config['token'])
